@@ -21,15 +21,22 @@ public class PlayerMovementManager : MonoBehaviour {
 
 		#if UNITY_ANDROID
 
-		if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved) 
+		if(Input.touchCount == 0){
+			path = new List<Vector2> ();
+		}
+		else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved) 
 		{
-			Vector2 temp = Input.GetTouch(0).deltaPosition;
-			path.Add(temp);
-			Debug.Log(temp);
-			Instantiate(player, temp, Quaternion.identity);
+			path.Add(Input.GetTouch(0).position);
 		}
 
+		if(path != null){
+			for(int i = 0; i < path.Count-1; i++){
+				Debug.DrawLine(path[i], path[i+1]);
+			}
+		}
 		#endif
 	}
+
+
 
 }
