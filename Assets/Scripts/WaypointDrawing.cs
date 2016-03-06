@@ -2,49 +2,86 @@
 using System.Collections;
 using System.Collections.Generic;
 public class WaypointDrawing : MonoBehaviour {
-	public static List<WayPoints> wp=new List<WayPoints>();
 	public static int index=0;
-	private float timer = 0f;
-
+	public static bool doneAdd=true;
+	private List<Vector2> path;
+	public static Vector2[] mouse;
+	public float speed;
+	public GameObject player;
+	private int currentNode;
+	public static bool enableMove;
+	public static float mouseSpeed;
+//	public static 	RaycastHit2D hit;
+//	public static Vector2 startPos;
+	void Start()
+	{
+		path = new List<Vector2> ();
+		mouse = new Vector2[2];
+	//	startPos = transform.position;
+	}
 	void Update () {
 
-		timer += Time.deltaTime;
+		//path [0] = startPos;
+	//	hit = Physics2D.Raycast (path [0], Vector2.zero);
 		if (Input.GetMouseButton (0)) {
-			
-			if (timer > 5f) {
-				wp.Add(new WayPoints((int)Input.mousePosition.x,(int) Input.mousePosition.y, true));
-				Debug.Log (wp [index].getX () + " " + wp [index].getY ()+" "+index);
-				index++;
-				timer -= 5f;
-			}
-		}
+			calculateMouseChange ();
+			if (doneAdd)
+				StartCoroutine ("Add");
+		} 
 		else
-			index = 0;
+			StartCoroutine (followPath ());
+		
+		
+		//	if (hit.collider.tag.Equals ("Player")) {
+				for (int i = 0; i < path.Count - 1; i++) {
+					Debug.DrawLine (path [i], path [i + 1]);
+				}
+	//	}
 	}
-	public class WayPoints
-	{
-		private int x;
-		private int y;
-		private bool active;
-		public WayPoints(int x, int y, bool active)
-		{
-			this.x = x;
-			this.y = y;
-			this.active = active;
-		}
-		public int getX()
-		{
-			return x;
-		}
 
-		public int getY()
-		{
-			return y;
+	IEnumerator Add()
+	{
+		doneAdd = false;
+		Vector2 temp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		path.Add(temp);
+		yield return new WaitForSeconds (mouseSpeed);
+		doneAdd = true;
+	}
+
+	IEnumerator calculateMouseChange()
+	{
+		mouse [0] = Input.mousePosition;
+		yield return new WaitForSeconds (0.02f);
+		mouse [1] = Input.mousePosition;
+		float xSq = Mathf.Pow (mouse [0].x - mouse [1].x, 2);
+		float ySq = Mathf.Pow (mouse [0].y - mouse [1].y, 2);
+		mouseSpeed=0.05f/Mathf.Pow(xSq+ySq,0.2f);
+	}
+
+	IEnumerator followPath()
+	{
+		while (currentNode < path.Count - 1) {
+			Vector2 diff = (path [currentNode] - (Vector2)transform.position);
+			float atan2 = Mathf.Atan2 (diff.y, diff.x);
+			transform.rotation = Quaternion.Euler (0f, 0f, atan2 * Mathf.Rad2Deg);
+			transform.position = Vector2.Lerp (transform.position, path [currentNode], speed);
+			if (Vector2.Distance (transform.position, path [currentNode]) <= 0.2f) {
+				currentNode++;
+			}
+			if (Input.GetKey(KeyCode.D)) {
+				path = new List<Vector2> ();
+				break;
+			}
+			yield return new WaitForEndOfFrame ();
 		}
-		public bool getActive()
-		{
-			return active;
-		}
+	    
+	if(currentNode >= path.Count - 1){
+		path = new List<Vector2> ();
+		currentNode = 0;
+		//	startPos = transform.position;
+	}
+
+
 	}
 }
 
