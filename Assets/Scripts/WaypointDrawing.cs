@@ -64,7 +64,7 @@ public class WaypointDrawing : MonoBehaviour {
 			Vector2 diff = (path [currentNode] - (Vector2)transform.position);
 			float atan2 = Mathf.Atan2 (diff.y, diff.x);
 			transform.rotation = Quaternion.Euler (0f, 0f, atan2 * Mathf.Rad2Deg);
-			transform.position = Vector2.Lerp (transform.position, path [currentNode], speed);
+			transform.position = Vector2.Lerp (transform.position, path [currentNode],diff.sqrMagnitude/speed);
 			if (Vector2.Distance (transform.position, path [currentNode]) <= 0.2f) {
 				currentNode++;
 			}
