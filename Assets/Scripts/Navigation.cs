@@ -16,7 +16,7 @@ public class Navigation : MonoBehaviour {
 
 		#if UNITY_EDITOR
 
-		if(Input.GetMouseButton(0))
+		if(Input.GetMouseButton(0) && !GameObject.FindWithTag("PlayerSprite").GetComponent<ShootTarget>().isLock())
 		{
 		Vector3 pos1 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		agent.SetDestination (pos1);

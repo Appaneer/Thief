@@ -5,11 +5,9 @@ public class Animate : MonoBehaviour {
 
 	public Animator anim;
 	// Use this for initialization
-	GameObject master;
     Vector2 current;
 	Vector2 prev;
 	void Start () {
-		master = GameObject.FindWithTag ("Player");
 		prev = transform.position;
 	}
 	
