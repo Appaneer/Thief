@@ -5,7 +5,6 @@ public class Navigation : MonoBehaviour {
 
 	public NavMeshAgent agent;
 	private Vector3 fixedPos;
-
 	// Update is called once per frame
 	void Update () {
 		#if UNITY_ANDROID
@@ -17,8 +16,12 @@ public class Navigation : MonoBehaviour {
 
 		#if UNITY_EDITOR
 
+		if(Input.GetMouseButton(0))
+		{
 		Vector3 pos1 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		agent.SetDestination (pos1);
+		}
+
 
 		#endif
 	}
