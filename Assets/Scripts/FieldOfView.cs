@@ -48,7 +48,6 @@ public class FieldOfView : MonoBehaviour {
 	void FindVisibleTargets() {
 		visibleTargets.Clear ();
 		Collider[] targetsInViewRadius = Physics.OverlapSphere (transform.position, viewRadius, targetMask);
-
 		for (int i = 0; i < targetsInViewRadius.Length; i++) {
 			Transform target = targetsInViewRadius [i].transform;
 			Vector3 dirToTarget = (target.position - transform.position).normalized;
@@ -56,6 +55,7 @@ public class FieldOfView : MonoBehaviour {
 				float dstToTarget = Vector3.Distance (transform.position, target.position);
 				if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask)) {
 					visibleTargets.Add (targetsInViewRadius [i].gameObject);
+					EnemyNavigation.OverriderTravelTo (targetsInViewRadius [i].gameObject.transform.position);
 				}
 			}
 		}

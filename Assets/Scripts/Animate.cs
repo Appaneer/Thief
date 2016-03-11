@@ -16,7 +16,7 @@ public class Animate : MonoBehaviour {
 		current = transform.position;
 		float change = (current - prev).magnitude / Time.deltaTime;
 		anim.SetFloat("hSpeed",Mathf.Abs(change));
-		Debug.Log (change);
+//		Debug.Log (change);
 		prev = transform.position;
 		if (Input.GetMouseButton (0))
 			anim.SetBool ("shooting", true);
