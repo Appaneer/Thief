@@ -33,7 +33,7 @@ public class EnemyNavigation : MonoBehaviour {
 
 	public static void OverriderTravelTo(Vector3 destination){
 		agent.SetDestination (destination);
-		distanceThreshold = 0.1f;
+		distanceThreshold = 0.4f;
 	}
 
 	public static void resumePath(){
