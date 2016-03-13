@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: daa717042be90e54a96bc6a57702a2a6
+timeCreated: 1457899446
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walking No Legs_0
+    21300002: Walking No Legs_1
+    21300004: Walking No Legs_2
+    21300006: Walking No Legs_3
+    21300008: Walking No Legs_4
+    21300010: Walking No Legs_5
+    21300012: Walking No Legs_6
+    21300014: Walking No Legs_7
+    21300016: Walking No Legs_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Walking No Legs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 61.22222}
+        - {x: -66, y: 61.22222}
+        - {x: -66, y: -26.777779}
+        - {x: 55, y: -26.777779}
+        - {x: 59, y: -22.777779}
+        - {x: 59, y: 21.222221}
+        - {x: 52, y: 51.22222}
+    - name: Walking No Legs_1
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 86
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.802216, y: 65.23111}
+        - {x: -64.802216, y: 60.23111}
+        - {x: -64.802216, y: -29.76889}
+        - {x: 25.197784, y: -29.76889}
+        - {x: 55.197784, y: -16.76889}
+        - {x: 55.197784, y: 32.23111}
+        - {x: 29.197784, y: 65.23111}
+    - name: Walking No Legs_2
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 86
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.746643, y: 56.23111}
+        - {x: -45.746643, y: 56.23111}
+        - {x: -39.746643, y: 43.23111}
+        - {x: -23.746643, y: 34.23111}
+        - {x: -58.746643, y: 27.23111}
+        - {x: -65.74664, y: 18.23111}
+        - {x: -65.74664, y: -28.76889}
+        - {x: -63.746643, y: -36.76889}
+        - {x: -16.746643, y: -36.76889}
+        - {x: 26.253357, y: -29.76889}
+        - {x: 48.253357, y: -5.7688904}
+        - {x: 48.253357, y: 25.23111}
+        - {x: 42.253357, y: 39.23111}
+    - name: Walking No Legs_3
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 71
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.31781, y: 67.09778}
+        - {x: -62.68219, y: 67.09778}
+        - {x: -62.68219, y: -27.902222}
+        - {x: 13.31781, y: -27.902222}
+        - {x: 50.31781, y: -21.902222}
+        - {x: 57.31781, y: -4.9022217}
+        - {x: 57.31781, y: 44.09778}
+    - name: Walking No Legs_4
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 100
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.484436, y: 61.22222}
+        - {x: -3.484436, y: 60.22222}
+        - {x: -1.484436, y: 48.22222}
+        - {x: 18.515564, y: 23.222221}
+        - {x: 32.515564, y: 18.222221}
+        - {x: 32.515564, y: 13.222221}
+        - {x: 30.515564, y: 16.222221}
+        - {x: 10.515564, y: 25.222221}
+        - {x: -19.484436, y: 41.22222}
+        - {x: -49.484436, y: 52.22222}
+        - {x: -63.484436, y: 14.222221}
+        - {x: -63.484436, y: -20.777779}
+        - {x: -61.484436, y: -26.777779}
+        - {x: 61.515564, y: -26.777779}
+        - {x: 61.515564, y: 36.22222}
+        - {x: 31.515564, y: 61.22222}
+    - name: Walking No Legs_5
+      rect:
+        serializedVersion: 2
+        x: 8017
+        y: 86
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.804443, y: -6.7688904}
+        - {x: -46.804443, y: -29.76889}
+        - {x: 59.195557, y: -29.76889}
+        - {x: 59.195557, y: 49.23111}
+        - {x: 48.195557, y: 70.23111}
+        - {x: -21.804443, y: 70.23111}
+        - {x: -58.804443, y: 42.23111}
+    - name: Walking No Legs_6
+      rect:
+        serializedVersion: 2
+        x: 9589
+        y: 100
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.26892, y: 52.22222}
+        - {x: 28.26892, y: 57.22222}
+        - {x: -19.73108, y: 57.22222}
+        - {x: -49.73108, y: 36.22222}
+        - {x: -49.73108, y: -12.777779}
+        - {x: -38.73108, y: -33.77778}
+        - {x: 62.26892, y: -33.77778}
+        - {x: 64.26892, y: -24.777779}
+        - {x: 64.26892, y: 20.222221}
+        - {x: 59.26892, y: 27.222221}
+    - name: Walking No Legs_7
+      rect:
+        serializedVersion: 2
+        x: 11218
+        y: 100
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.448975, y: 68.22222}
+        - {x: 7.4489746, y: 68.22222}
+        - {x: 12.448975, y: 44.22222}
+        - {x: -44.551025, y: 48.22222}
+        - {x: -58.551025, y: 28.222221}
+        - {x: -58.551025, y: -8.777779}
+        - {x: -37.551025, y: -28.777779}
+        - {x: -12.551025, y: -31.777779}
+        - {x: 55.448975, y: -31.777779}
+        - {x: 59.448975, y: -17.777779}
+        - {x: 59.448975, y: 24.222221}
+        - {x: 49.448975, y: 43.22222}
+    - name: Walking No Legs_8
+      rect:
+        serializedVersion: 2
+        x: 12790
+        y: 57
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.022217, y: 67.10667}
+        - {x: -3.9777832, y: 67.10667}
+        - {x: -4.977783, y: 66.10667}
+        - {x: -2.9777832, y: 54.106667}
+        - {x: 18.022217, y: 29.106667}
+        - {x: 31.022217, y: 24.106667}
+        - {x: 31.022217, y: 19.106667}
+        - {x: 29.022217, y: 22.106667}
+        - {x: -50.977783, y: 67.10667}
+        - {x: -52.977783, y: 67.10667}
+        - {x: -63.977783, y: 35.106667}
+        - {x: -63.977783, y: -20.893333}
+        - {x: 60.022217, y: -20.893333}
+        - {x: 60.022217, y: 27.106667}
+        - {x: 53.022217, y: 58.106667}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

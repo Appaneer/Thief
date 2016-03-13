@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 786dae33c5b73d249b84fc8a12bc7257
+timeCreated: 1457896615
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Remove Knife_0
+    21300002: Remove Knife_1
+    21300004: Remove Knife_2
+    21300006: Remove Knife_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Remove Knife_0
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 670
+        width: 838
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.940002, y: 96.399994}
+        - {x: -17.059998, y: 96.399994}
+        - {x: 1.9400024, y: 29.399994}
+        - {x: -66.06, y: 61.399994}
+        - {x: -105.06, y: 83.399994}
+        - {x: -134.06, y: 26.399994}
+        - {x: -134.06, y: -90.600006}
+        - {x: -106.06, y: -95.600006}
+        - {x: 134.94, y: -95.600006}
+        - {x: 134.94, y: 28.399994}
+        - {x: 96.94, y: 71.399994}
+    - name: Remove Knife_1
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 670
+        width: 788
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.94, y: 62.899994}
+        - {x: 48.940002, y: 75.899994}
+        - {x: -97.06, y: 75.899994}
+        - {x: -119.06, y: 29.899994}
+        - {x: -126.06, y: 10.899994}
+        - {x: -126.06, y: -46.100006}
+        - {x: -125.06, y: -59.100006}
+        - {x: -93.06, y: -75.100006}
+        - {x: 96.94, y: -75.100006}
+        - {x: 125.94, y: -59.100006}
+        - {x: 126.94, y: -54.100006}
+        - {x: 126.94, y: 25.899994}
+    - name: Remove Knife_2
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 670
+        width: 774
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.17993, y: 70.399994}
+        - {x: 22.179932, y: 63.399994}
+        - {x: 8.179932, y: 70.399994}
+        - {x: -97.82007, y: 70.399994}
+        - {x: -123.82007, y: 60.399994}
+        - {x: -123.82007, y: -54.600006}
+        - {x: -110.82007, y: -69.600006}
+        - {x: 113.17993, y: -69.600006}
+        - {x: 125.17993, y: -65.600006}
+        - {x: 125.17993, y: 48.399994}
+        - {x: 90.17993, y: 70.399994}
+    - name: Remove Knife_3
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 670
+        width: 822
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.43994, y: 75.899994}
+        - {x: 32.43994, y: 60.899994}
+        - {x: -40.56006, y: 73.899994}
+        - {x: -41.56006, y: 75.899994}
+        - {x: -104.56006, y: 75.899994}
+        - {x: -131.56006, y: 12.899994}
+        - {x: -131.56006, y: -49.100006}
+        - {x: -130.56006, y: -59.100006}
+        - {x: -108.56006, y: -75.100006}
+        - {x: 132.43994, y: -75.100006}
+        - {x: 132.43994, y: 34.899994}
+        - {x: 89.43994, y: 75.899994}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 58925eb81e950ab449725f8d8a748093
+timeCreated: 1457899470
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle Knife_0
+    21300002: Idle Knife_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle Knife_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 260, y: -38.580017}
+        - {x: 260, y: 63.419983}
+        - {x: 251, y: 97.41998}
+        - {x: 238, y: 131.41998}
+        - {x: 231, y: 139.41998}
+        - {x: 207, y: 160.41998}
+        - {x: 188, y: 159.41998}
+        - {x: 190, y: 210.41998}
+        - {x: 180, y: 226.41998}
+        - {x: 53, y: 272.41998}
+        - {x: 32, y: 282.41998}
+        - {x: -17, y: 282.41998}
+        - {x: -8, y: 230.41998}
+        - {x: 37, y: 194.41998}
+        - {x: 61, y: 183.41998}
+        - {x: 76, y: 132.41998}
+        - {x: 133, y: 100.41998}
+        - {x: 142, y: 75.41998}
+        - {x: 144, y: 73.41998}
+        - {x: 155, y: 63.419983}
+        - {x: 124, y: 77.41998}
+        - {x: 57, y: 98.41998}
+        - {x: 33, y: 110.41998}
+        - {x: -41, y: 110.41998}
+        - {x: -66, y: 100.41998}
+        - {x: -77, y: 81.41998}
+        - {x: -143, y: 79.41998}
+        - {x: -168, y: 79.41998}
+        - {x: -141, y: 102.41998}
+        - {x: -128, y: 115.41998}
+        - {x: -126, y: 180.41998}
+        - {x: -150, y: 203.41998}
+        - {x: -215, y: 202.41998}
+        - {x: -227, y: 193.41998}
+        - {x: -247, y: 171.41998}
+        - {x: -257, y: 147.41998}
+        - {x: -278, y: 86.41998}
+        - {x: -288, y: 35.419983}
+        - {x: -288, y: -40.580017}
+        - {x: -281, y: -50.580017}
+        - {x: -267, y: -72.58002}
+        - {x: -225, y: -92.58002}
+        - {x: -42, y: -90.58002}
+        - {x: -42, y: -98.58002}
+        - {x: -40, y: -100.58002}
+        - {x: 34, y: -100.58002}
+        - {x: 36, y: -91.58002}
+        - {x: 166, y: -92.58002}
+        - {x: 228, y: -72.58002}
+    - name: Idle Knife_1
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 78
+        width: 1500
+        height: 1500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.45996, y: -100.58002}
+        - {x: 76.45996, y: -94.58002}
+        - {x: 142.45996, y: -100.58002}
+        - {x: 205.45996, y: -100.58002}
+        - {x: 228.45996, y: -94.58002}
+        - {x: 268.45996, y: -45.580017}
+        - {x: 268.45996, y: 63.419983}
+        - {x: 259.45996, y: 97.41998}
+        - {x: 246.45996, y: 131.41998}
+        - {x: 239.45996, y: 138.41998}
+        - {x: 227.45996, y: 203.41998}
+        - {x: 214.45996, y: 211.41998}
+        - {x: 194.45996, y: 221.41998}
+        - {x: 155.45996, y: 243.41998}
+        - {x: 137.45996, y: 268.41998}
+        - {x: 82.45996, y: 303.41998}
+        - {x: 40.45996, y: 303.41998}
+        - {x: 38.45996, y: 301.41998}
+        - {x: 36.45996, y: 258.41998}
+        - {x: 48.45996, y: 239.41998}
+        - {x: 50.45996, y: 237.41998}
+        - {x: 56.45996, y: 227.41998}
+        - {x: 66.45996, y: 197.41998}
+        - {x: 90.45996, y: 183.41998}
+        - {x: 109.45996, y: 147.41998}
+        - {x: 111.45996, y: 145.41998}
+        - {x: 138.45996, y: 105.41998}
+        - {x: 150.45996, y: 74.41998}
+        - {x: 65.45996, y: 98.41998}
+        - {x: 41.45996, y: 110.41998}
+        - {x: -32.54004, y: 110.41998}
+        - {x: -55.54004, y: 97.41998}
+        - {x: -53.54004, y: 77.41998}
+        - {x: -145.54004, y: 79.41998}
+        - {x: -175.54004, y: 59.419983}
+        - {x: -180.54004, y: 76.41998}
+        - {x: -161.54004, y: 116.41998}
+        - {x: -159.54004, y: 148.41998}
+        - {x: -201.54004, y: 193.41998}
+        - {x: -239.54004, y: 204.41998}
+        - {x: -268.54004, y: 192.41998}
+        - {x: -279.54004, y: 181.41998}
+        - {x: -289.54004, y: 127.41998}
+        - {x: -289.54004, y: 24.419983}
+        - {x: -279.54004, y: -27.580017}
+        - {x: -278.54004, y: -30.580017}
+        - {x: -251.54004, y: -71.58002}
+        - {x: -205.54004, y: -100.58002}
+        - {x: -182.54004, y: -100.58002}
+        - {x: -180.54004, y: -91.58002}
+        - {x: -72.54004, y: -100.58002}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

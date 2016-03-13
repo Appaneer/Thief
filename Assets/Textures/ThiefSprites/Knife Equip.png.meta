@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: fbc629398de03d049b42d1e15b5a9899
+timeCreated: 1457896519
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knife Equip_0
+    21300002: Knife Equip_1
+    21300004: Knife Equip_2
+    21300006: Knife Equip_3
+    21300008: Knife Equip_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Knife Equip_0
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 669
+        width: 821
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.908005, y: 55.764008}
+        - {x: 56.908005, y: 60.764008}
+        - {x: 45.908005, y: 60.764008}
+        - {x: -51.091995, y: 12.764008}
+        - {x: -53.091995, y: 10.764008}
+        - {x: -53.091995, y: 8.764008}
+        - {x: -57.091995, y: 8.764008}
+        - {x: -53.091995, y: 9.764008}
+        - {x: -51.091995, y: 20.764008}
+        - {x: -33.091995, y: 22.764008}
+        - {x: -27.091995, y: 49.764008}
+        - {x: -32.091995, y: 60.764008}
+        - {x: -78.091995, y: 60.764008}
+        - {x: -89.091995, y: 57.764008}
+        - {x: -105.091995, y: 38.764008}
+        - {x: -105.091995, y: -54.235992}
+        - {x: -61.091995, y: -60.235992}
+        - {x: 77.908005, y: -60.235992}
+        - {x: 105.908005, y: -50.235992}
+        - {x: 105.908005, y: 15.764008}
+    - name: Knife Equip_1
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 669
+        width: 770
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.543976, y: 56.764008}
+        - {x: -98.543976, y: 48.764008}
+        - {x: -98.543976, y: -56.235992}
+        - {x: 99.456024, y: -56.235992}
+        - {x: 99.456024, y: 38.764008}
+        - {x: 78.456024, y: 56.764008}
+    - name: Knife Equip_2
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 669
+        width: 789
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.89197, y: 60.764008}
+        - {x: -100.89197, y: 47.764008}
+        - {x: -100.89197, y: -38.235992}
+        - {x: -94.89197, y: -60.235992}
+        - {x: 102.10803, y: -60.235992}
+        - {x: 102.10803, y: 45.764008}
+        - {x: 49.108032, y: 60.764008}
+    - name: Knife Equip_3
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 669
+        width: 774
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.900024, y: 67.26401}
+        - {x: -25.099976, y: 67.26401}
+        - {x: -27.099976, y: 62.264008}
+        - {x: -27.099976, y: 52.264008}
+        - {x: -5.0999756, y: 28.264008}
+        - {x: 17.900024, y: 21.264008}
+        - {x: 18.900024, y: 16.264008}
+        - {x: 20.900024, y: 14.264008}
+        - {x: 18.900024, y: 14.264008}
+        - {x: 18.900024, y: 16.264008}
+        - {x: 16.900024, y: 18.264008}
+        - {x: -13.099976, y: 19.264008}
+        - {x: -21.099976, y: 15.264008}
+        - {x: -25.099976, y: 11.264008}
+        - {x: -25.099976, y: 38.264008}
+        - {x: -26.099976, y: 50.264008}
+        - {x: -80.099976, y: 60.264008}
+        - {x: -99.099976, y: 16.264008}
+        - {x: -99.099976, y: -57.735992}
+        - {x: -92.099976, y: -66.73599}
+        - {x: 95.900024, y: -66.73599}
+        - {x: 99.900024, y: -59.735992}
+        - {x: 99.900024, y: 7.2640076}
+        - {x: 94.900024, y: 40.264008}
+    - name: Knife Equip_4
+      rect:
+        serializedVersion: 2
+        x: 6717
+        y: 669
+        width: 836
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.947876, y: 77.26401}
+        - {x: -1.947876, y: 55.264008}
+        - {x: 44.052124, y: 9.264008}
+        - {x: 62.052124, y: -7.7359924}
+        - {x: 64.052124, y: -7.7359924}
+        - {x: 64.052124, y: -9.735992}
+        - {x: 66.052124, y: -11.735992}
+        - {x: 64.052124, y: -11.735992}
+        - {x: 64.052124, y: -9.735992}
+        - {x: 62.052124, y: -7.7359924}
+        - {x: 56.052124, y: -7.7359924}
+        - {x: 57.052124, y: -4.7359924}
+        - {x: 19.052124, y: 19.264008}
+        - {x: -82.947876, y: 59.264008}
+        - {x: -106.947876, y: 18.264008}
+        - {x: -106.947876, y: -76.73599}
+        - {x: 99.052124, y: -76.73599}
+        - {x: 108.052124, y: -62.735992}
+        - {x: 108.052124, y: 37.264008}
+        - {x: 53.052124, y: 77.26401}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
