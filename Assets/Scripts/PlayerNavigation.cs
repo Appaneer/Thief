@@ -28,4 +28,11 @@ public class PlayerNavigation : MonoBehaviour {
 		}
 		#endif
 	}
+
+	void OnTriggerEnter(Collider other){
+		if(other.gameObject.tag.Equals("Enemy")){
+			//TODO add knifing animation
+			Destroy (other.gameObject);
+		}
+	}
 }
